@@ -1,10 +1,7 @@
 /// ╔═══════════════════════════════╗
 /// ║ 	Supertrended RSI			║
-/// ╔═══════════════════════════════╗
-/// ║	RSI Simple BlackBox			║
-/// ╔═══════════════════════════════╗
-/// ║  Tsi & Divergences			║
-/// ║  @	Allen.					║
+/// ║ 	@	Ultr.					║
+/// ║ 	@	AlgoAlpha				║
 /// ╚═══════════════════════════════╝
 
 //@version=5
@@ -69,23 +66,23 @@ AmeTrGrayNickel							= #F1F1F1								// AmeritradeGrayNickel
 	// AmeTrPurpleEggPlant						= #732181								// AmeritradePurpleEggPlant
 
 /// ─── Axi ───
-	// AxiPrimary								= #fc404d								// AxiPrimary
-	// AxiSecondary								= #282424								// AxiSecondary
+	// AxiPrimary								= #fc404d								// AxiPrimary				/// ► ◄ ▲ ▼
+	// AxiSecondary								= #282424								// AxiSecondary				/// ↑ ↓ → ←
 	// AxiAccent								= #61ce70								// AxiAccent
-	// Axi7a46f22								= #d11c36								// Axi7a46f22
-	// Axi1519066c								= #fc404d								// Axi1519066c
-	// Axi3d4fa1a1								= #f0ebe3								// Axi3d4fa1a1
-	// Axi638b46c1								= #fcd758								// Axi638b46c1
-	// Axid07bac9								= #f9b4a8								// Axid07bac9
-	// Axie63a114								= #2c4d5a								// Axie63a114
-	// Axi8bf0845								= #a4d866								// Axi8bf0845
-	// Axi75c6da1								= #282424								// Axi75c6da1
-	// Axi378280f								= #45c2c7								// Axi378280f
-	// Axi4de92c5								= #6caddf								// Axi4de92c5
-	// Axi413dab8			   					= #00275d					            // Axi413dab8
+	// Axi7a46f22								= #d11c36								// Axi7a46f22				/// @|1↓→9|1→5|.-|_789_|	/// coint|1↓→6|1→6|.-|_47_|
+	// Axi1519066c								= #fc404d								// Axi1519066c				/// @|1↓→6|1↓→6|!|_7_|		/// coint|1↓→9|1→4|.!|_4_|
+	// Axi3d4fa1a1								= #f0ebe3								// Axi3d4fa1a1				/// @|1↓→9|1↓→9|!|_7_|		/// coint|1↓→9|1→6|.-|_1_|		/// ok|1↓→6|1→5|.-|_147_|		/// |1↓→9|1→4|.!|_4_|
+	// Axi638b46c1								= #fcd758								// Axi638b46c1				/// @|1→↑12|.-|_147_|
+	// Axid07bac9								= #f9b4a8								// Axid07bac9				/// @|1→↑12|.-|_741_|
+	// Axie63a114								= #2c4d5a								// Axie63a114				/// @|1→↑12|.-|_852_|		/// gt|1→↑10|.-|_52_|			/// zoo|1→↑10|.-|_82_|			/// |1→↑11|.-|_82_|
+	// Axi8bf0845								= #a4d866								// Axi8bf0845				/// @|1→↑12|.-|_852_|		/// thinkors|1→↑9|_8_|2|		/// book|1→↑9|_8_|2|			/// disc|1→↑10|.-|_63_|
+	// Axi75c6da1								= #282424								// Axi75c6da1				/// @|1→↑12|.-|_963_|		/// lbx|1→↑11|.-|852|
+	// Axi378280f								= #45c2c7								// Axi378280f				/// @|1↓→9|1→6|.|_4_|		/// ok|1↓→6|1→4|.!|_789_|
+	// Axi4de92c5								= #6caddf								// Axi4de92c5				/// @|1→↑13|.-!|_963_|		/// exch|1→↑10|.-|_85_|
+	// Axi413dab8			   					= #00275d								// Axi413dab8											/// hotm|1→↑10|.-|_7_|			/// ins|1→↑10|.-|_95_|
 	// Axib3fab89								= #55165c								// Axib3fab89
-	// Axi548138f								= #45c2c7								// Axi548138f
-	// Axi5ed9920								= #ea1616								// Axi5ed9920
+	// Axi548138f								= #45c2c7								// Axi548138f				/// ► ◄ ▲ ▼
+	// Axi5ed9920								= #ea1616								// Axi5ed9920				/// ↑ ↓ → ←
 	// Axi70f7335								= #dd0606								// Axi70f7335
 
 /// ─── GrayScale ───
@@ -177,19 +174,19 @@ AmeTrGrayNickel							= #F1F1F1								// AmeritradeGrayNickel
 	// IntAcTertiaryDark40						= hsla(202, 76%, 0%, 1.0)				// InteractiveTertiaryDark40
 
 /// ─── Visa ───
-	// VisPrimary								= #1434CB								// VisaBrandPrimary
-	// VisPrimaryLight							= #3B57DE								// VisaBrandPrimaryLight
+	// VisPrimary								= #1434CB								// VisaBrandPrimary			/// ► ◄ ▲ ▼
+	// VisPrimaryLight							= #3B57DE								// VisaBrandPrimaryLight	/// ↑ ↓ → ←
 	// VisPrimaryDark							= #021E4C								// VisaBrandPrimaryDark
-	// VisSecondary								= #FCC015								// VisaBrandSecondary
-	// VisSecondaryLight						= #FFD700								// VisaBrandSecondaryLight
-	// VisSecondaryDark							= #F7B600								// VisaBrandSecondaryDark
-	// VisTertiary7								= #2C2C2C								// VisaBrandTertiary7
-	// VisTertiary6								= #5C5C5C								// VisaBrandTertiary6
-	// VisTertiary5								= #979797								// VisaBrandTertiary5
-	// VisTertiary4								= #B9B9B9								// VisaBrandTertiary4
-	// VisTertiary3								= #DEDEDE								// VisaBrandTertiary3
-	// VisTertiary2								= #EEEEEE								// VisaBrandTertiary2
-	// VisTertiary1								= #F7F7F7								// VisaBrandTertiary1
+	// VisSecondary								= #FCC015								// VisaBrandSecondary		/// VT|1↓→6|1→5|!|_7_(.)|	/// coint|1↓→6|1→4|_7_.|		/// ok|1↓→6|1→4|.|_1_|			/// |1↓→6|1→4|!|_7_|		/// |1→6|1→↓6|_1_|  #910
+	// VisSecondaryLight						= #FFD700								// VisaBrandSecondaryLight	/// |1↓#→6|1↓→6|_789_|-!|	/// |1↓→6|1→4|-|_74_|
+	// VisSecondaryDark							= #F7B600								// VisaBrandSecondaryDark	/// @|1↓→6|1→4|!|_789_|
+	// VisTertiary7								= #2C2C2C								// VisaBrandTertiary7		/// @|1↓→6|1→6|.!|_4_(.)|
+	// VisTertiary6								= #5C5C5C								// VisaBrandTertiary6		/// @|1↓→9|1→6|.|_7_|		/// ()@|1↓→9|1→6|!|_7_|		/// bix|1↓→6|1→3|.-|_1_|
+	// VisTertiary5								= #979797								// VisaBrandTertiary5		/// @|1↓→9|1→5|.!|_7_|
+	// VisTertiary4								= #B9B9B9								// VisaBrandTertiary4		/// @|1↓→6|1→5|-|_714_|		/// bix|1↓→3|1→5|.-|_789_|
+	// VisTertiary3								= #DEDEDE								// VisaBrandTertiary3		/// @|1→↓6|1→5|_741_|
+	// VisTertiary2								= #EEEEEE								// VisaBrandTertiary2									/// ap|1→↓6|1→5|!|_7_|
+	// VisTertiary1								= #F7F7F7								// VisaBrandTertiary1		/// @|1→↑12|.-|_741_|		/// gt|1→↑10|.-|_6_|
 
 /// ─── Latam ───
 	// LatRedBackground							= rgb(232, 17, 75)						// Latam Red Background
@@ -251,7 +248,7 @@ PlatziGreen40							= #85C638								// PlatziGreen60
 	// PlatziGreen60							= #98CA3F								// PlatziGreen40
 PlatziBlue50							= #24385B								// PlatziBlue50
 PlatziBlue70							= #121F3D								// PlatziBlue70
-	// PlatziBlue80								= #0C1633								// PlatziBlue80
+	// PlatziDark60								= #0C1633								// PlatziDark60
 
 /// ─── Ultr ───
 	// UltrBlueSky10							= #59F2E9								// UltrBlueSky10
@@ -401,19 +398,18 @@ sTrendSupertrendPlot					= plot(sTrendRsiSupertrend,							color = FusTTrendDire
 sTrendRsiPlot							= plot(sTrendRsiValue,								color = color.new(color.gray, 100),													title = "RSI")
 
 /// ─── Lines OverBought /OverSold
-plot(80,								color = color.from_gradient(sTrendRsiValue, 65, 80, color.new(sTrendColorBase, 73),		color.new(sTrendColorDown, 0)),					title = "",		linewidth = 6,	editable = false)
-plot(20,								color = color.from_gradient(sTrendRsiValue, 20, 45, color.new(sTrendColorUp, 0),		color.new(sTrendColorBase, 73)),				title = "",		linewidth = 6,	editable = false)
+plot(80,								color = color.from_gradient(sTrendRsiValue, 65, 80, color.new(sTrendColorBase, 73),		color.new(sTrendColorDown, 0)),					title = "",		linewidth = 5,	editable = false)
+plot(20,								color = color.from_gradient(sTrendRsiValue, 20, 45, color.new(sTrendColorUp, 0),		color.new(sTrendColorBase, 73)),				title = "",		linewidth = 5,	editable = false)
 
-plot(75,								color = color.from_gradient(sTrendRsiValue, 60, 75, color.new(sTrendColorBase, 73),		color.new(sTrendColorDown, 0)),					title = "",		linewidth = 6,	editable = false)
-plot(25,								color = color.from_gradient(sTrendRsiValue, 25, 40, color.new(sTrendColorUp, 0),		color.new(sTrendColorBase, 73)),				title = "",		linewidth = 6,	editable = false)
+plot(75,								color = color.from_gradient(sTrendRsiValue, 60, 75, color.new(sTrendColorBase, 73),		color.new(sTrendColorDown, 0)),					title = "",		linewidth = 4,	editable = false)
+plot(25,								color = color.from_gradient(sTrendRsiValue, 25, 40, color.new(sTrendColorUp, 0),		color.new(sTrendColorBase, 73)),				title = "",		linewidth = 4,	editable = false)
 
-plot(70,								color = color.from_gradient(sTrendRsiValue, 50, 70, color.new(sTrendColorBase, 73),		color.new(sTrendColorDown, 0)),					title = "",		linewidth = 6,	editable = false)
-plot(30,								color = color.from_gradient(sTrendRsiValue, 30, 50, color.new(sTrendColorUp, 0),		color.new(sTrendColorBase, 73)),				title = "",		linewidth = 6,	editable = false)
+plot(70,								color = color.from_gradient(sTrendRsiValue, 50, 70, color.new(sTrendColorBase, 73),		color.new(sTrendColorDown, 0)),					title = "",		linewidth = 3,	editable = false)
+plot(30,								color = color.from_gradient(sTrendRsiValue, 30, 50, color.new(sTrendColorUp, 0),		color.new(sTrendColorBase, 73)),				title = "",		linewidth = 3,	editable = false)
 
 /// ─── Moving Average Line
 plot(sTrendRsiMovingAverage,			color = color.new(sTrendColorMa, 50),		title = "RSI MA",				display = sTrendShowMovingAverage ? display.all : display.none, linewidth = 2)
 plot(sTrendRsiMovingAverage,			color = color.new(sTrendColorMa, 80),		title = "",						display = sTrendShowMovingAverage ? display.all : display.none, linewidth = 6)
-// plot(50,								color = color.new(sTrendColorMa, 70),		title = "Linea Media")
 
 /// ─── Filling ───────
 sTrendHLineMidZoneUp					= hline(40,		editable = false,			display = display.none)
@@ -427,16 +423,6 @@ fill(sTrendSupertrendPlot, sTrendRsiPlot, sTrendRsiValue, sTrendRsiSupertrend, c
 /// ─── Crossover & CrossUnder Signal
 plotshape(ta.crossover(sTrendRsiSupertrend, sTrendRsiValue)		and sTrendRsiSupertrend > 70 ? 85 : na,	style = shape.triangledown,	location = location.absolute,	color = sTrendColorDown,	size = size.tiny,	title = "▼")
 plotshape(ta.crossunder(sTrendRsiSupertrend, sTrendRsiValue)	and sTrendRsiSupertrend < 30 ? 15 : na,	style = shape.triangleup,	location = location.absolute,	color = sTrendColorUp,		size = size.tiny,	title = "▲")
-
-//// ───────────────────────
-/// ─── Supertrend Rsi
-/// ─── Alerts ───────
-//// ───────────────────────
-
-// alertcondition(ta.crossover(sTrendRsiValue, sTrendRsiSupertrend),	"Compra RSI Supertrend")
-// alertcondition(ta.crossunder(sTrendRsiValue, sTrendRsiSupertrend),	"Venta RSI Supertrend")
-// alertcondition(ta.crossover(sTrendRsiSupertrend, sTrendRsiValue)	and sTrendRsiSupertrend > 70,	"Compra RSI Reversal")
-// alertcondition(ta.crossunder(sTrendRsiSupertrend, sTrendRsiValue)	and sTrendRsiSupertrend < 30,	"Venta RSI Reversal")
 
 //// ─────────────────────────────────────────────────────────────────────
 //// ─────────────────────────────────────────────────────────────────────
@@ -493,11 +479,11 @@ rsiMiddleL			= input			(defval = 50,			title = "Media",				group = grpRsi)
 rsiOverBought		= input			(defval = 70,			title = "Sobrecompra",			group = grpRsi)
 rsiOverSold			= input			(defval = 30,			title = "Sobreventa",			group = grpRsi)
 
-rsiOverBoughtHigh	= 77
-rsiOverSoldSlow		= 23
+rsiOverBoughtHigh	= 76
+rsiOverSoldSlow		= 24
 
-rsiOverBoughtUp		= rsiOverBoughtHigh - 4
-rsiOverSoldDown		= rsiOverSoldSlow + 4
+rsiOverBoughtUp		= rsiOverBoughtHigh - 3
+rsiOverSoldDown		= rsiOverSoldSlow + 3
 
 //// ───────────────────────
 /// ─── Rsi Black ───
@@ -546,17 +532,11 @@ overSoldLineDown	= hline(checkRsiShow ? rsiOverSoldSlow		: na,		editable = false
 /// ─── Cloud & Haz ─ 	
 //// ───────────────────────
 
-/// ─── Haz +rsi- ───
-// rsiRsiLineCUp				= plot(checkCloudShow ? rsiInsHazUp : na,						editable = false,		display = display.none)
-// rsiRsiLineCDn				= plot(checkCloudShow ? rsiInsHazDn : na,						editable = false,		display = display.none)
-
-// fill(rsiRsiLineCUp,		rsiRsiLineCDn,			color = color.new(colorCloudCrOver, 80),	editable = false)
-
 /// ─── Cloud ───
 plotCloudLineTsi	= plot(checkCloudShow ? rsiInsCloudTSI : na, title = "TSI",		color = colRsiCloud,		linewidth = 2,		display = display.none)
 plotCloudLineEma	= plot(checkCloudShow ? rsiInsCloudEMA : na, title = "EMA",		color = colRsiCloud,		linewidth = 2,		display = display.none)
 
-fill(plotCloudLineTsi, plotCloudLineEma,											color = color.new(rsiColorCrOver, 65),			editable = false)
+fill(plotCloudLineTsi, plotCloudLineEma,											color = color.new(rsiColorCrOver, 50),			editable = false)
 
 //// ───────────────────────
 /// ─── Rsi Black ───
@@ -619,8 +599,8 @@ bgcolor(checkConfirmShow and crossBelow	? colRsiCrossLow	: na)
 tsiDivColorBaseBull					= PlatziGreen30
 tsiDivColorBaseBear					= VictSecFucsia50
 
-tsiDivColorBull						= color.new(PlatziGreen30,		0)
-tsiDivColorBear						= color.new(VictSecFucsia50,	0)
+tsiDivColorBull						= PlatziGreen30
+tsiDivColorBear						= VictSecFucsia50
 tsiDivColorShapeBull				= color.new(AllenMint60,		30)
 tsiDivColorShapeBear				= color.new(AllenSky10,			30)
 tsiDivColorHiddenBull				= color.new(PlatziGreen40,		30)
@@ -661,26 +641,28 @@ double_smooth(src, tsiDivInputLong, tsiDivInputShort) =>
 tsiDiFuPC							= ta.change(tsiDivInputPrice)
 tsiDiFuDouble_smoothed_price		= double_smooth(tsiDiFuPC, tsiDivInputLong, tsiDivInputShort)
 tsiDiFuDouble_smoothed_abs_price	= double_smooth(math.abs(tsiDiFuPC), tsiDivInputLong, tsiDivInputShort)
-tsiDiFuTsi_value					= 68 * (tsiDiFuDouble_smoothed_price / tsiDiFuDouble_smoothed_abs_price) + 50
-// tsiDiFuTsi_value					= tsiDiFuDouble_smoothed_price / tsiDiFuDouble_smoothed_abs_price * 65 + 50
+tsiDiFuTsi_value					= 80 * (tsiDiFuDouble_smoothed_price / tsiDiFuDouble_smoothed_abs_price) + 50
 tsiDiFuLagLine						= ta.ema(tsiDiFuTsi_value, tsiDivInputSignal)
 
 /// ─── Plot data ───
 tsiDiFuFillColor					= tsiDivShowCloudOn and tsiDiFuTsi_value > tsiDiFuLagLine ? tsiDivColorBull : tsiDivShowCloudOn and tsiDiFuTsi_value <= tsiDiFuLagLine ? tsiDivColorBear : na
 
-tsiDiFuLine1						= plot(tsiDiFuTsi_value,	color = color.new(tsiDiFuFillColor, 25))
-tsiDiFuLine2						= plot(ta.ema(tsiDiFuTsi_value,	tsiDivInputSignal),	color = color.new(tsiDiFuFillColor, 25))
-hline(0,	title = 'Zero',	color = color.new(#000000, 50),	editable = true)
+plot(tsiDiFuTsi_value,	color = color.new(PlatziBlue70, 60),	linewidth = 6)
+plot(ta.ema(tsiDiFuTsi_value,	tsiDivInputSignal),	color = color.new(PlatziBlue70, 60),	linewidth = 6)
+tsiDiFuLine1						= plot(tsiDiFuTsi_value,	color = color.new(tsiDiFuFillColor, 42),	linewidth = 2)
+tsiDiFuLine2						= plot(ta.ema(tsiDiFuTsi_value,	tsiDivInputSignal),	color = color.new(tsiDiFuFillColor, 42),	linewidth = 2)
+
+// hline(0,	title = 'Zero',	color = color.new(#000000, 50),	editable = true)
 
 /// ─── Colour fill ───
 tsiDiFuCloudColor					= tsiDivShowCloudOn and tsiDiFuTsi_value > tsiDiFuLagLine ? tsiDivColorBaseBull : tsiDivShowCloudOn and tsiDiFuTsi_value <= tsiDiFuLagLine ? tsiDivColorBaseBear : na
 
-fill(tsiDiFuLine1,	tsiDiFuLine2,	color = color.new(tsiDiFuCloudColor, 60))
+fill(tsiDiFuLine1,	tsiDiFuLine2,	color = color.new(tsiDiFuCloudColor, 66))
 
 tsiDiFuTSI							= tsiDiFuTsi_value
 tsiDiFuOSC							= tsiDiFuTSI
 
-tsiDivDiTSIPlot						= plot(tsiDivShowTSI ? tsiDiFuOSC : na, linewidth = 2, color = tsiDivColorTSI, title = 'TSI')
+// tsiDivDiTSIPlot						= plot(tsiDivShowTSI ? tsiDiFuOSC : na, linewidth = 2, color = tsiDivColorTSI, title = 'TSI')
 
 tsiDiFuPLFound						= na(ta.pivotlow(tsiDiFuOSC, tsiDivDiverLBL, tsiDivDiverLBR)) ? false : true
 tsiDiFuPHFound						= na(ta.pivothigh(tsiDiFuOSC, tsiDivDiverLBL, tsiDivDiverLBR)) ? false : true
@@ -709,8 +691,6 @@ plot(tsiDiFuPLFound ? tsiDiFuOSC[tsiDivDiverLBR] : na, offset = -tsiDivDiverLBR,
 
 plotshape(tsiDiInsBULLCond ? tsiDiFuOSC[tsiDivDiverLBR] : na, offset = -tsiDivDiverLBR, title = 'Etiqueta de Compra', text = ' Compra ', style = shape.labelup, location = location.absolute, color = tsiDivColorShapeBull, textcolor = tsiDivColorText)
 
-// alertcondition(tsiDiInsBULLCond, title = 'TSI ha encontrado una divergencia Alcista', message = 'Verifique en gráfico por confirmación de COMPRA por TSI')
-
 //// ───────────────────────
 /// ─── Hidden Bullish ───
 //// ───────────────────────
@@ -726,8 +706,6 @@ tsiDiInsHiddenBullCond				= tsiDivShowPlotHiddenBull and tsiDiInsPRICEHL and tsi
 plot(tsiDiFuPLFound ? tsiDiFuOSC[tsiDivDiverLBR] : na, offset = -tsiDivDiverLBR, title = 'Confirmación de Compra scalp', linewidth = 2, color = tsiDiInsHiddenBullCond ? tsiDivColorHiddenBull : tsiDivColorNone)
 
 plotshape(tsiDiInsHiddenBullCond ? tsiDiFuOSC[tsiDivDiverLBR] : na, offset = -tsiDivDiverLBR, title = 'Etiqueta de Compra scalp', text = ' Compra Scalp ', style = shape.labelup, location = location.absolute, color=tsiDivColorShapeBull, textcolor = tsiDivColorText)
-
-// alertcondition(tsiDiInsHiddenBullCond, title = 'TSI ha encontrado una divergencia Alcista oculta', message = 'Verifique en gráfico por confirmación de COMPRA scalp por TSI por TSI')
 
 //// ───────────────────────
 /// ─── Regular Bearish ───
@@ -745,8 +723,6 @@ plot(tsiDiFuPHFound ? tsiDiFuOSC[tsiDivDiverLBR] : na, offset = -tsiDivDiverLBR,
 
 plotshape(tsiDiInsBEARCond ? tsiDiFuOSC[tsiDivDiverLBR] : na, offset = -tsiDivDiverLBR, title = 'Etiqueta de Venta', text = ' Venta ', style = shape.labeldown, location = location.absolute, color = tsiDivColorShapeBear, textcolor = tsiDivColorText)
 
-// alertcondition(tsiDiInsBEARCond, title = 'TSI ha encontrado una divergencia Bajista', message = 'Verifique en gráfico por confirmación de VENTA por TSI')
-
 //// ───────────────────────
 /// ─── Hidden Bearish ───
 //// ───────────────────────
@@ -762,7 +738,5 @@ tsiDiInsHiddenBearCond				= tsiDivShowPlotHiddenBear and tsiDiInsPRICELH and tsi
 plot(tsiDiFuPHFound ? tsiDiFuOSC[tsiDivDiverLBR] : na, offset = -tsiDivDiverLBR, title = 'Confirmación de Venta scalp', linewidth = 2, color = tsiDiInsHiddenBearCond ? tsiDivColorHiddenBear : tsiDivColorNone)
 
 plotshape(tsiDiInsHiddenBearCond ? tsiDiFuOSC[tsiDivDiverLBR] : na, offset = -tsiDivDiverLBR, title = 'Etiqueta de Venta scalp', text = ' Venta Scalp ', style = shape.labeldown, location = location.absolute, color = tsiDivColorShapeBear, textcolor = tsiDivColorText)
-
-// alertcondition(tsiDiInsHiddenBearCond, title = 'TSI ha encontrado una divergencia Bajista oculta', message = 'Verifique en gráfico por confirmación de VENTA scalp por TSI')
 
 //// ─────────────────────────────────────────────────────────────────────
