@@ -398,14 +398,14 @@ sTrendSupertrendPlot					= plot(sTrendRsiSupertrend,							color = FusTTrendDire
 sTrendRsiPlot							= plot(sTrendRsiValue,								color = color.new(color.gray, 100),													title = "RSI")
 
 /// ─── Lines OverBought /OverSold
-plot(80,								color = color.from_gradient(sTrendRsiValue, 65, 80, color.new(sTrendColorBase, 73),		color.new(sTrendColorDown, 0)),					title = "",		linewidth = 5,	editable = false)
-plot(20,								color = color.from_gradient(sTrendRsiValue, 20, 45, color.new(sTrendColorUp, 0),		color.new(sTrendColorBase, 73)),				title = "",		linewidth = 5,	editable = false)
+plot(80,								color = color.from_gradient(sTrendRsiValue, 65, 80, color.new(sTrendColorBase, 73),		color.new(sTrendColorDown, 0)),					title = "",		linewidth = 6,	editable = false)
+plot(20,								color = color.from_gradient(sTrendRsiValue, 20, 45, color.new(sTrendColorUp, 0),		color.new(sTrendColorBase, 73)),				title = "",		linewidth = 6,	editable = false)
 
-plot(75,								color = color.from_gradient(sTrendRsiValue, 60, 75, color.new(sTrendColorBase, 73),		color.new(sTrendColorDown, 0)),					title = "",		linewidth = 4,	editable = false)
-plot(25,								color = color.from_gradient(sTrendRsiValue, 25, 40, color.new(sTrendColorUp, 0),		color.new(sTrendColorBase, 73)),				title = "",		linewidth = 4,	editable = false)
+plot(75,								color = color.from_gradient(sTrendRsiValue, 60, 75, color.new(sTrendColorBase, 73),		color.new(sTrendColorDown, 0)),					title = "",		linewidth = 5,	editable = false)
+plot(25,								color = color.from_gradient(sTrendRsiValue, 25, 40, color.new(sTrendColorUp, 0),		color.new(sTrendColorBase, 73)),				title = "",		linewidth = 5,	editable = false)
 
-plot(70,								color = color.from_gradient(sTrendRsiValue, 50, 70, color.new(sTrendColorBase, 73),		color.new(sTrendColorDown, 0)),					title = "",		linewidth = 3,	editable = false)
-plot(30,								color = color.from_gradient(sTrendRsiValue, 30, 50, color.new(sTrendColorUp, 0),		color.new(sTrendColorBase, 73)),				title = "",		linewidth = 3,	editable = false)
+plot(70,								color = color.from_gradient(sTrendRsiValue, 50, 70, color.new(sTrendColorBase, 73),		color.new(sTrendColorDown, 0)),					title = "",		linewidth = 4,	editable = false)
+plot(30,								color = color.from_gradient(sTrendRsiValue, 30, 50, color.new(sTrendColorUp, 0),		color.new(sTrendColorBase, 73)),				title = "",		linewidth = 4,	editable = false)
 
 /// ─── Moving Average Line
 plot(sTrendRsiMovingAverage,			color = color.new(sTrendColorMa, 50),		title = "RSI MA",				display = sTrendShowMovingAverage ? display.all : display.none, linewidth = 2)
